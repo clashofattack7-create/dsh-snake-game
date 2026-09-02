@@ -1,0 +1,22 @@
+{
+  "name": "dsh-client-ui-snake-game",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A playable Snake game for the DeepSeek Harness Web UI (sidebar button + full-screen overlay)",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web"
+    }
+  }
+}
